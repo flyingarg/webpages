@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Mohit Raju"/>
+		<meta name="description" content="Learning1"/>
+
+		<!-- Open Graph Data. Developed by Facebook, used by every chat application -->
+		<meta property="og.image" content="./images/icon.png"/>
+		<meta property="og.description" content="Exploits of a mom that has a funny image shamelessly copied from xkcd.
+		This is a image that describes the expoints of mom"/>
+		<meta property="og.title" content="Exploits of a mom"/>
+
+		<link rel="icon" href="images/icon.png" type="image/x-icon" />
+
+		<title>Starting HTML Course on MDN</title>
+	</head>
+	<body>
+		<h1>Charsets</h1>
+		<p>Why do we need the whole character set thing ? How do we change/set it ?</p>
+		<h1>Enable charset using the meta tag</h1>
+		<p>Enable charset using DOCTYPE as html. The states that the doc is HTML5.</p>
+		<p>Charset utf-8 is the default for html5</p>
+		<p>The japanese script : ご飯が熱い。</p>
+		<h1>Metadata</h1>
+		<p>Metadata with the name author is, well to specify the author name</p>
+		<p>Metadata with the name description is what shows up when the page is displayed by search engines</p>
+		<h1>Open Graph Data</h1>
+		<p>This is what allows facebook(the original devs of these custom tags), chat applications to describe a page link more graphically</p>
+		<ol>
+			<li>property="og:image" content="https://image.url/d32Ada.png"</li>
+			<li>property="og:description" content="Full show description"</li>
+			<li>property="og:title" content="Short show description"</li>
+		</ol>
+		<h1>Website icon</h1>
+		<p>The one that comes before the website icon</p>
+		<p>This is not a meta tag but a link tag. It needs:</p>
+		<ul>
+			<li>link tag</li>
+			<li>rel="icon"</li>. There are device specific icon definitions. For example on apple device book marking you would need "apple-touch-icon".
+			<li>sizes</li>. This is defined in pixels
+			<li>href to the image</li>
+			<li>type is referred to as "image/x-icon"</li>
+		</ul>
+		<h1>Set language to the page</h1>
+		<p>This is done by adding lang="en-US" to html tag</p>
+		<p>Use span to set language to certain sections within a paragrap tag section</p>
+		<h1>Set special font setting</h1>
+		<p>
+		<span style="font-size: 24px; margin: 21px 0; display: block; color: brown"
+			>How does this font look like ?</span>
+		</p>
+		<h1>Different types of text emphasis</h1>
+		<ol>
+			<li><p>this is <i>italics</i></p></li>
+			<li><p>this is <b>bold</b></p></li>
+			<li><p>this is <em>Emphasized</em></p></li>
+			<li><p>this is <strong>Strong</strong></p></li>
+			<li><p>this is <mark>Marked</mark> and further specified by langualge <mark lang="hi">सूर के जीवन</mark></p></li>
+		</ol>
+	</body>
+</html>

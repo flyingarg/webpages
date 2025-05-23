@@ -1,0 +1,6 @@
+Test Page
+file:///home/mohitr/Code/webpages/html_basics/index.html
+
+Page Link Progress
+	https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content
+		https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Lists
