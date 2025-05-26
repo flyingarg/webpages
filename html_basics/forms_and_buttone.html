@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forms and Buttons</title>
+
+    <meta name="author" content="Mohit Raju"/>
+    <meta name="description" content="Page to play with forms and buttons"/>
+
+    <link rel="icon" href="images/icon.png" type="image/x-icon"/>
+
+    <meta property="og:name" content="Page to play with forms and buttons" />
+    <meta property="og.title" content="Forms and Buttons"/>
+    <meta property="og.image" content="images/page_preview_image.png" />
+
+  </head>
+  <body>
+    <button name="pm" id="pm">Press me</button>
+    <script type="text/javascript">
+      const btn = document.getElementById("pm");
+      btn.addEventListener("click", () => {
+        btn.textContent = "YOU CLICKED ME!! ❤️";
+        setTimeout(() => {
+          btn.textContent = "Press me";
+        }, 1000);
+      });
+    </script>
+
+    <form action="./submit" method="POST">
+      <h2>Login</h2>
+      <p>
+      <label for="user_name">User Name</label>
+      <input type="text" name="user_name" id="user_name" required />
+
+      </p>
+
+      <p>
+      <label for="user_pass">User Pass</label>
+      <input type="text" name="user_pass" id="user_pass" required />
+      </p>
+
+      <input type="color"/>
+      <input type="password"/>
+      <input type="tel"/>
+
+      <label for="bt1">Button</label>
+      <input type="text" name="bt1" value="buttone" id=bt1/>
+
+      <input type="reset" />
+
+      <hr/>
+      <p>Types of Buttons 
+      <table>
+        <tr>
+          <td><button type="reset">Reset</button></td>
+        </tr>
+        <tr>
+          <td><button type="submit">Submit</button></td>
+        </tr>
+        <tr>
+          <td><button type="button">Button</button></td>
+        </tr>
+      </table>
+      </p>
+      <hr/>
+
+      <p>
+      <button id="btn_login" name="btn_login">Login</button>
+      </p>
+    </form>
+
+    <h2>Meetup register</h2>
+    <form>
+      <fieldset>
+        <legend>Choose Hotel Room</legend>
+        <label for="Economy">Economy</label>
+        <input type="radio" name="hotel_room" id="Economy" value="Economy" />
+
+        <label for="Superior">Superior</label>
+        <input type="radio" name="hotel_room" id="Superior" value="Superior" checked="checked"/>
+
+        <label for="Honeymoon">Honeymoon Suite</label>
+        <input type="radio" name="hotel_room" id="Honeymoon" value="Honeymoon suite" />
+      </fieldset>
+      <fieldset>
+        <label>How are we getting there ?</label>
+        <select name="transport" id="transport">
+          <option value="None">---None---</option>
+          <option value="Bus">Bus</option>
+          <option value="Train">Train</option>
+          <option value="Car">Car</option>
+        </select>
+      </fieldset>
+    </form>
+
+  </body>
+</html>
