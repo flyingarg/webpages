@@ -1,0 +1,48 @@
+h1{
+	color: teal;
+}
+
+/* this is now you define a class */
+.class_name {
+	font-weight: 700;
+}
+
+/* this applies when li occurs within p */
+p li {
+	color: gray;
+}
+
+/* this means when p follows h1 */
+h1 + p {
+	color: green;
+}
+
+header, footer {
+	color: wheat;
+	background-color: grey;
+	align-items: center;
+	align-content: space-around;
+	text-align: center; /* this aligns the text to the center */
+}
+
+header p {
+	font-weight: 700;
+}
+
+table, th, td {
+	border: solid;
+	border-color: grey;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	height: 100px;
+	width: 145px;
+}
+
+/* this sets the style for id */
+#news {
+	font-style: italic;
+}
