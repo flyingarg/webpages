@@ -1,29 +1,45 @@
-*{
-	/* border: 1px solid black;
-	padding: 5%;
-	margin: 5%;*/
+/**{
+	border: 1px solid black;
+	padding: .5px;
+	margin: .5px;
 	align-items: center;
+}*/
+
+body{
+	background-color: #f5e1ca ;
 }
 
-body {
-	margin-left: 30%;
-	padding: 65px;
-	padding-top: 35%;
-	padding-bottom: 50%;
+article {
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+
+	margin: 30%;
+}
 
 h1 {
-	color: red;
-	width: 40%;
+	color: ;
+	text-align: center;
 }
 
 header {
 	display: flex;
-	border-color: blue;
 	flex-wrap: nowrap;
+
+	height: 30px;
+	margin-bottom: 10px;
 }
 
 footer {
-	padding-top: 100%;
+	height: 30px;
+	margin-top: 10px;
+	color: #581845;
+}
+
+footer > p {
+	align-items: center;
+	text-align: center;
 }
 
 
@@ -31,29 +47,33 @@ form {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	height: 80%;
-	width: 50%;
+
 	align-items: center;
 	justify-content: center;
 }
 
 .login_user, .login_pass{
-	border-color: yellow;
 	display: flex;
 	flex-wrap: nowrap;
 	width: 90%;
 	height: 50%;
 	align-items: center;
 	justify-content: center;
+	color: #900C3F ;
+}
+
+.login_title {
+	margin: 25px;
+	font-size: 22;
+	color: #581845 ;
 }
 
 div > label {
-	color: blue;
-	width: 33%;
+	width: 50%;
+	margin: 5px;
 }
 
 div > input {
-	border-color: green;
 	width: 69%;
 }
 
@@ -61,10 +81,13 @@ div > input {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin: 10px;
 }
 
 #b_login {
 	width: 100%;
+	color: #ffffff;
+	background-color: #C70039;
 }
 
 

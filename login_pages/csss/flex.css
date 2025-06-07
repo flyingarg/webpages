@@ -1,0 +1,21 @@
+*{
+	border: 1px solid black;
+}
+
+
+.flex-container {
+	width: 400px;
+	height: 400px;
+	color: red;
+	
+	display: flex;
+	align-content: stretch;
+
+}
+
+div > div {
+	padding: 5%;
+	margin: 5%;
+	color: cornflowerblue;
+	background-color: burlywood;
+}

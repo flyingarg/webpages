@@ -7,33 +7,35 @@
 	</head>
 	<body>
 		<header>
-			<h1>Login Here</h1>
-			<img src="../html_basics/images/icon.png"
-				 width="40"
-				 height="40"
-				 />
+			<div style="flex-grow: 9;"> <h1></h1></div>
+			<div style="flex-grow: 1"><img src="../html_basics/images/mcr_flag.webp"
+										   width="60"
+										   height="35"
+										   /></div>
 		</header>
 
-				<form method="POST" action="submit">
-					<div class="login_title">
-						<legend>Enter credentials to login here</legend>
-					</div>
-					<div class="login_user">
-						<label for="username">User Name</label>
-						<input type="text" id="username" name="username" value=""/>
-					</div>
-					<div class="login_pass">
-						<label for="password">Password </label>
-						<input type="password" id="password" name="password" value=""/>
-					</div>
-					<div class="login_button">
-						<button type="button" id="b_login" name="b_login">LOGIN</button>
-					</div>
-				</form>
+		<article>
+			<form method="POST" action="submit">
+				<div class="login_title">
+					<legend>Enter credentials to login here</legend>
+				</div>
+				<div class="login_user">
+					<label for="username">User Name</label>
+					<input type="text" id="username" name="username" value=""/>
+				</div>
+				<div class="login_pass">
+					<label for="password">Password </label>
+					<input type="password" id="password" name="password" value=""/>
+				</div>
+				<div class="login_button">
+					<button type="button" id="b_login" name="b_login">LOGIN</button>
+				</div>
+			</form>
+		</article>
 
 
-			<footer>
-				<p>Copyright(R) M Mohit Raju</p>
-			</footer>
+		<footer>
+			<p>Copyright(R) M Mohit Raju</p>
+		</footer>
 	</body>
 </html>
