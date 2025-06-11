@@ -1,0 +1,42 @@
+*{
+	/*border: 1px solid black;*/
+}
+
+body {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+
+	justify-content: space-between;
+	background-color: #f5e1ca ;
+}
+
+header {
+	margin-bottom: 10px;
+}
+
+header > div{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+
+	height: 30px;
+	margin-bottom: 10px;
+	justify-items: center;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	height: 50px;
+	margin-top: 10px;
+}
+
+main {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: wrap;
+
+	margin-top: 18%;
+	margin-bottom: 18%;
+}
