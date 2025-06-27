@@ -1,0 +1,19 @@
+* {
+	border: 2px solid black
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	height: 100px;
+	width: 180px;
+}
+
+div {
+	height: 40px;
+	width: 40px;
+}
