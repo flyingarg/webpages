@@ -1,0 +1,25 @@
+/* * {
+	border: 1px solid black;
+}*/
+
+body {
+	display: flex;
+	flex-direction: column;
+
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+	height: 700px;
+	width: 700px;
+}
+
+textarea {
+	height: 50px;
+	width: 700px;
+}
+
+footer {
+	text-align: center;
+}
